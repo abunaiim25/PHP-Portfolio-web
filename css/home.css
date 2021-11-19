@@ -1,0 +1,300 @@
+@import 'utilities.css';
+
+
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+    --secondary:#070606
+}
+
+
+
+header{
+   height: 600px;
+   background-image: url("../images/bg.jpg");
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 90%, 0 100%);
+}
+
+
+
+.navbar{
+	padding: 20px 0;
+}
+
+.navbar-brand{
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 2em;
+	color: #262626;
+}
+.nav-item{
+	font-weight: 800;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link{
+	background: #f0ad4e;
+	color: #fff ;
+    border-radius: 5px;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link{
+	color: #262626;
+	padding: 5px 15px;
+}
+
+
+.navbar-light .navbar-toggler{
+	border: none;
+	color: #fff;
+	border: 2px solid #7f7f7f;
+}
+header nav ul li a{
+    
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 1rem;
+    padding-left: 4rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: all .3s ease;
+}
+
+
+.navbar-toggler-icon{
+    background:#f0ad4e;
+    border-radius: .3rem;
+    color: white;
+ }
+
+
+
+
+ .button{
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+   border: 2px solid transparent;
+   outline: none;
+   cursor: pointer;
+   border-radius: 5px;
+   transition: all .3s ease;
+ }
+ 
+ .button-design{
+    background: #f0ad4e;
+    color:white;
+ }
+ .button-design:hover{
+    background: transparent;
+    border-color: #f0ad4e;
+    color: #f0ad4e;
+ }
+ 
+
+
+
+
+
+
+.naiim{
+    padding: 6rem;
+    padding-top: 8rem;
+
+}
+.naiim .left img{
+    width: 250px;
+    margin-bottom: 1rem;
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.naiim .right{
+    color: var(--pure);
+}
+
+
+.naiim .right h1{
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1;
+   
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.naiim .right h6{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+
+   
+
+
+
+.about{
+    padding: 6rem ;
+}
+
+section.about .aboutme {
+     text-align: center;
+}
+
+
+.social{
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    margin-left: 0px;
+}
+.social li{
+    margin: 0 10px;
+}
+
+.social a{
+    left: 0;
+    margin: 0;
+    text-decoration: none;
+    color: #000;
+}
+
+
+.social a i{
+    left: 0;
+    margin: 0;
+    font-size: 1.4rem;
+    transition: color .4s ease;
+}
+
+.social a:hover i{
+    color: #f0ad4e;
+}
+
+
+
+
+
+.carousel-item{
+    height: 35rem;
+    background-color: whitesmoke;
+    position: relative;
+    color: white;
+}
+
+.overlay-image{
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    top: 0px;
+}
+
+
+.container-carousel{
+    max-width: 500px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+.footer-body{
+    background: #fcfcff;
+   
+}
+
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-weight: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-contener{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+}
+
+.footer-contener h3{
+    font-size:1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem ;
+}
+
+.footer-contener p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: #f0ad4e;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+
